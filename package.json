@@ -1,0 +1,61 @@
+{
+  "name": "minetest_mod_manager",
+  "version": "1.0.0",
+  "description": "Minetest mod manager to game work in headless mode",
+  "main": "./bin/binController.ts",
+  "bin": {
+    "minetest-manager": "./bin/binController.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brtkuu/minetest_mods_manager.git"
+  },
+  "keywords": [
+    "minetest",
+    "modes",
+    "mod",
+    "manager",
+    "headless",
+    "contentdb",
+    "manager"
+  ],
+  "author": "Bartosz Posert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brtkuu/minetest_mods_manager/issues"
+  },
+  "homepage": "https://github.com/brtkuu/minetest_mods_manager#readme",
+  "dependencies": {
+    "@types/yargs": "^15.0.5",
+    "@typescript-eslint/parser": "^3.7.0",
+    "async-replace": "^1.0.1",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.0.0",
+    "cli-progress": "^3.8.2",
+    "directory-exists": "^2.0.1",
+    "extract-zip": "^2.0.0",
+    "find-remove": "^2.0.1",
+    "node-downloader-helper": "^1.0.12",
+    "querystringify": "^2.1.1",
+    "readline-sync": "^1.4.10",
+    "string-replace-async": "^1.2.1",
+    "typescript": "^3.9.7",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.7.0",
+    "@types/node-downloader-helper": "^1.0.2",
+    "@types/querystringify": "^2.0.0",
+    "@types/readline-sync": "^1.4.3",
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jsdoc": "^30.0.3",
+    "prettier": "^2.0.5",
+    "typescript-eslint": "0.0.1-alpha.0"
+  }
+}
